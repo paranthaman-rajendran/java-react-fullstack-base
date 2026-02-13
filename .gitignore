@@ -1,0 +1,60 @@
+# ====================
+# Java / Spring Boot
+# ====================
+backend/build/
+backend/.gradle/
+backend/bin/
+backend/out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle wrapper (keep gradlew and wrapper jar in VCS)
+# !backend/gradle/wrapper/gradle-wrapper.jar
+
+# ====================
+# Node / React
+# ====================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# ====================
+# IDE
+# ====================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ====================
+# OS
+# ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================
+# Environment
+# ====================
+.env
+.env.local
+.env.*.local
+
+# ====================
+# Docker
+# ====================
+docker-compose.override.yml
+
+# ====================
+# Logs
+# ====================
+*.log
+logs/

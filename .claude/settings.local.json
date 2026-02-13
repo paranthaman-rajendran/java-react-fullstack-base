@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"E:/developer/Cluade/full-stack-app-plan\" status)",
+      "Bash(java -version:*)"
+    ]
+  }
+}
